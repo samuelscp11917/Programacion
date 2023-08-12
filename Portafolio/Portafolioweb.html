@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css"> 
+    <title>Portafolio</title> 
+</head>
+<body>
+    <!--seccion inicio-->
+
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+        <div class="contenido">
+            <header>
+                <div class="logo">
+                    <i class="fa-brands fa-codepen"></i>
+                    <h1>Samuel</h1>
+                </div>
+                <nav id="nav" class="">
+                    <a href="#inicio">INICIO</a>
+                    <a href="#servicios">SOBRE MI</a>
+                    <a href="#trabajos">PROYECTOS</a>
+                    <a href="#contacto">CONTACTO</a>
+                </nav>
+
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>Desarrollador Web Fullstack</h2>
+                    <p>Hola yo soy Samuel y estoy empezando a darle un impulso a mi vida profesional y personal en el campo de la tecnología y desarrollo web. Por medio de esta página conoceras un poco más sobre mi, quien soy, mis aspiraciones, que quiero hacer y mucho más.</p>
+                    <a href="https://www.canva.com/design/DAFpAoSJxF0/6tVpBu7r27YlXZYugGgzyA/view?utm_content=DAFpAoSJxF0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">Hoja de Vida</a>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="foto-inicio.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </section>
+    </span>
+
+    <!--seccion sobre mi-->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                    </div>
+                    <h3>Sobre Mi</h3>
+                    <p>Soy egresado del colegio Emmanuel Dalzon, actualmente busco oportunidades para estudiar y trabajar para empezar mi vida profesional. Me gusta el baloncesto y he participado en distintas competencias y torneos del deporte, me gusta el ajedrez y he ido a competencias, me gusta el pingpong, me gustan las matemáticas y disfruto aprenderlas pq siempre se me han facilitado. Con lo que aprenda ahora y en el futuro me gustaría desarrollarme mejor profesional y personalmente. Tengo un nivel intermedio de ingles y algunas bases de fránces que es un idioma que ultimamente me ha llamado la atención por decirlo así por lo "romantico que suena" y quisiera aprenderlo y hablarlo fluidamente. Actualmente no he tenido experiencias de trbajo formal, sin embargo voy en busca de ello :D</p>
+
+                    <a href="./contacto.png" target="_blank">Foto de mi :D</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--seccion trabajos-->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Proyectos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="programacion">Programación</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item programacion">
+                <img src="trabajo1.png" alt="">
+                <div class="info">
+                    <h3>Mokepones</h3>
+                    <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+                    <a href="https://github.com/samuelscp11917/mokepon/tree/main" target="_blank">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="trabajo2.PNG" alt="">
+                <div class="info">
+                    <h3>Piedra,Papel o Tijera</h3>
+                    <span>HTML</span><span>JAVASCRIPT</span>
+                    <a href="https://github.com/samuelscp11917/Piedra-papel-tijera/tree/main" target="_blank">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--seccion contacto-->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="col">
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>samuelscp11917@gmail.com</p>
+                </div>
+                <div class="info">
+                    <h3>Teléfono</h3>
+                    <p>+57 3126163416</p>
+                </div>
+                <div class="info">
+                    <h3>País</h3>
+                    <p>Colombia</p>
+                </div>
+                <div class="info">
+                    <h3>Ciudad</h3>
+                    <p>Bogotá</p>
+                </div>
+            </div>
+            <div class="col">
+                <input type="text" placeholder="Nombre...">
+                <input type="text" placeholder="Correo...">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar" class="btn">
+            </div>
+        </div>
+    </section>   
+    
+    <footer>
+        <p>Creado por Samuel Castro - 2023</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
